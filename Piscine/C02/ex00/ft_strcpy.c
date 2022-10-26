@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+// #include <stdio.h>
 
 char	*ft_strcpy(char *dest, char *src)
 {
@@ -26,11 +26,11 @@ char	*ft_strcpy(char *dest, char *src)
 	return (dest);
 }
 
-int	main(void)
-{
-	char	dest[3];
+// // int	main(void)
+// {
+// 	char	dest[3];
 
-	ft_strcpy(dest, "hel");
-	printf("%s", dest);
-	return (0);
-}
+// 	ft_strcpy(dest, "hel");
+// 	printf("%s", dest);
+// 	return (0);
+// }

@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+// #include <stdio.h>
 #include <stdlib.h>
 
 int	ft_is_sep(char c, char *charset)
@@ -101,14 +101,14 @@ char	**ft_split(char *str, char *charset)
 	return (dest);
 }
 
-int	main(void)
-{
-	char	*str = "::abcw::::def;;;;g,hi;;;;";
-	char	*charset = ":;,";
-	char	**dest;
+// int	main(void)
+// {
+// 	char	*str = "::abcw::::def;;;;g,hi;;;;";
+// 	char	*charset = ":;,";
+// 	char	**dest;
 
-	dest = ft_split(str, charset);
-	printf("number of words : %d\n", ft_nb_of_words(str, charset));
-	printf("les dests : %s %s %s %s", dest[0], dest[1], dest[2], dest[3]);
-	return (0);
-}
+// 	dest = ft_split(str, charset);
+// 	printf("number of words : %d\n", ft_nb_of_words(str, charset));
+// 	printf("les dests : %s %s %s %s", dest[0], dest[1], dest[2], dest[3]);
+// 	return (0);
+// }

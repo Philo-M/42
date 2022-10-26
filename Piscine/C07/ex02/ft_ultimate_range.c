@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+// #include <stdio.h>
 #include <stdlib.h>
 
 int	ft_ultimate_range(int **range, int min, int max)
@@ -36,20 +36,20 @@ int	ft_ultimate_range(int **range, int min, int max)
 	return (size);
 }
 
-int	main(void)
-{
-	         int	*tab;
-	unsigned int	i;
-	unsigned int	size;
-	         int	min = -32;
-	         int	max = 166;
+// int	main(void)
+// {
+// 	         int	*tab;
+// 	unsigned int	i;
+// 	unsigned int	size;
+// 	         int	min = -32;
+// 	         int	max = 166;
 
-	printf("return est : %d\n", ft_ultimate_range(&tab, min, max));
-	size = (unsigned)(max - min);
-	while (i < size)
-	{
-		printf("%d ", tab[i]);
-		i++;
-	}
-	return (0);
-}
+// 	printf("return est : %d\n", ft_ultimate_range(&tab, min, max));
+// 	size = (unsigned)(max - min);
+// 	while (i < size)
+// 	{
+// 		printf("%d ",tab[i]);
+// 		i++;
+// 	}
+// 	return (0);
+// }

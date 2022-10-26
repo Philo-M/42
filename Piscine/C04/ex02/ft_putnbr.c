@@ -41,8 +41,8 @@ void	ft_putnbr(int nb)
 	}
 }
 
-int	main(void)
-{
-	ft_putnbr(4956);
-	return (0);
-}
+// int	main(void)
+// {
+// 	ft_putnbr(4956);
+// 	return (0);
+// }

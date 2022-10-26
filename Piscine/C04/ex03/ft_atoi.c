@@ -10,8 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <stdlib.h>
+// #include <stdio.h>
+// #include <stdlib.h>
 
 int	ft_atoi(char *str)
 {
@@ -38,8 +38,8 @@ int	ft_atoi(char *str)
 	return (sign * res);
 }
 
-int	main(void)
-{
-	printf("les res est : %d", ft_atoi("     	 +-++--45689ds1321"));
-	return (0);
-}
+// int	main(void)
+// {
+// 	printf("les res est : %d", ft_atoi("     	 +-++--45689ds1321"));
+// 	return (0);
+// }

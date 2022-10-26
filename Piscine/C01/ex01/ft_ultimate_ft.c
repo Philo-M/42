@@ -10,20 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-
 void	ft_ultimate_ft(int *********nbr)
 {
 	*********nbr = 42;
 }
-
-/*
-int main (void)
-{
-	int nombre;
-	int resultat;
-
-	resultat = ft_ultimate_ft(&(&(&(&(&(&(&(&(&nombre))))))));
-	printf("%d", resultat);
-}
-*/

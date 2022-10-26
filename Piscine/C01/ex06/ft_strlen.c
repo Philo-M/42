@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-
 int	ft_strlen(char *str)
 {
 	int	i;
@@ -20,10 +18,4 @@ int	ft_strlen(char *str)
 	while (str[i] != '\0')
 		i++;
 	return (i);
-}
-
-int	main(void)
-{
-	printf("%d", ft_strlen("bonjour"));
-	return (0);
 }

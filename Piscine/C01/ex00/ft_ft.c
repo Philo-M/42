@@ -10,17 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-
 void	ft_ft(int *nbr)
 {
 	*nbr = 42;
-}
-
-int	main(void)
-{
-	int	nombre;
-
-	ft_ft(&nombre);
-	printf("%d", nombre);
 }

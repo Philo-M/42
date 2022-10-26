@@ -10,8 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
+// #include <stdio.h>
+// #include <string.h>
 #include <stdlib.h>
 
 int	ft_len(char *src)
@@ -42,23 +42,23 @@ char	*ft_strdup(char *src)
 	return (dest);
 }
 
-int	main(void)
-{
-	char	src[] = "abcd";
-	char	*dest;
-	char	*dest_ft;
+// int	main(void)
+// {
+// 	char	src[] = "abcd";
+// 	char	*dest;
+// 	char	*dest_ft;
 
-	dest_ft = ft_strdup(src);
-	printf("src_ft est : %s$\n", src);
-	printf("dest_ft est : %s$\n", dest_ft);
-	printf("src_ft apres : %p\n", src);
-	printf("dest_ft apres : %p\n\n", dest_ft);
+// 	dest_ft = ft_strdup(src);
+// 	printf("src_ft est : %s$\n", src);
+// 	printf("dest_ft est : %s$\n", dest_ft);
+// 	printf("src_ft apres : %p\n", src);
+// 	printf("dest_ft apres : %p\n\n", dest_ft);
 
-	dest = strdup(src);
-	printf("src est : %s$\n", src);
-	printf("dest_ est : %s$\n", dest);
-	printf("src apres : %p\n", src);
-	printf("dest apres : %p\n", dest);
-	return (0);
+// 	dest = strdup(src);
+// 	printf("src est : %s$\n", src);
+// 	printf("dest_ est : %s$\n", dest);
+// 	printf("src apres : %p\n", src);
+// 	printf("dest apres : %p\n", dest);
+// 	return (0);
 
-}
+// }

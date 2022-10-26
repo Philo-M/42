@@ -10,8 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <unistd.h>
+// #include <stdio.h>
+// #include <unistd.h>
 #include <stdlib.h>
 
 int	ft_len(char *str)
@@ -71,15 +71,15 @@ char	*ft_strjoin(int size, char **strs, char *sep)
 	return (dest);
 }
 
-int	main(void)
-{
-	 int	size = 0;
-	char	*strs[] = {"abcd","efgh", "ijkl"};
-	char	*dest;
-	char	*sep = "TOP";
+// int	main(void)
+// {
+// 	 int	size = 0;
+// 	char	*strs[] = {"abcd","efgh", "ijkl"};
+// 	char	*dest;
+// 	char	*sep = "TOP";
 
-	// printf("strs 0 a 2 : %s%s%s\n", strs[0], strs[1], strs[2]);
-	dest = ft_strjoin(size, strs, sep);
-	printf("dest : %s", dest);
-	return (0);
-}
+// 	// printf("strs 0 a 2 : %s%s%s\n", strs[0], strs[1], strs[2]);
+// 	dest = ft_strjoin(size, strs, sep);
+// 	printf("dest : %s", dest);
+// 	return (0);
+// }

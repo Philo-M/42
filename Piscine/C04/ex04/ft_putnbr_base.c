@@ -85,11 +85,11 @@ void	ft_putnbr_base(int nb, char *base)
 
 int	main(void)
 {
-	char	base[] = "poneyfvi";
+	char	base[] = "0123456789ABCDEF";
 
 	if (ft_test_base(base) == 0)
 		return (0);
 	else
-		ft_putnbr_base(2147483647, base);
+		ft_putnbr_base(10, base);
 	return (0);
 }

@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-
 void	ft_swap(int *a, int *b)
 {
 	int	t;
@@ -19,16 +17,4 @@ void	ft_swap(int *a, int *b)
 	t = *a;
 	*a = *b;
 	*b = t;
-}
-
-int	main(void)
-{
-	int	x;
-	int	y;
-
-	x = 78;
-	y = 25;
-	ft_swap(&x, &y);
-	printf("x=%d et y=%d", x, y);
-	return (0);
 }

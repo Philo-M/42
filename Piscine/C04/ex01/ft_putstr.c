@@ -34,10 +34,10 @@ void	ft_putstr(char *str)
 	}
 }
 
-int	main(void)
-{
-	char	str[] = "Bonjour";
+// int	main(void)
+// {
+// 	char	str[] = "Bonjour";
 
-	ft_putstr(str);
-	return (0);
-}
+// 	ft_putstr(str);
+// 	return (0);
+// }

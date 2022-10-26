@@ -35,10 +35,10 @@ char	*ft_strncpy(char *dest, char *src, unsigned int n)
 
 // int	main(void)
 // {
-// 	char	dest[10] = "abcdefg";
-// 	char	ft_dest[10] = "abcdefg";
-// 	char	src[] = "";
-// 	unsigned int	n = 7;
+// 	char	dest[10] = "abcde";
+// 	char	ft_dest[10] = "abcde";
+// 	char	src[] = "wx";
+// 	unsigned int	n = 15;
 
 // 	printf("strncpy : %s\n", strncpy(dest, src, n));
 // 	printf("dest : %s\n", dest);
